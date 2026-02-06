@@ -10,6 +10,7 @@ namespace Peminjaman.Backend.Data
 
         }
         public DbSet<PeminjamanRuangan> Peminjamans { get; set; }
+        public DbSet<User> Users { get; set; }
 
     }
 }
